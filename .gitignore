@@ -1,9 +1,9 @@
-# Ignore Python virtual environment and installed packages
+# Virtual environment
 .venv/
-bin/
-lib/
+
+# Cache & compiled files
 __pycache__/
 *.pyc
 
-# Ignore environment files and secrets
+# Secrets
 .env
